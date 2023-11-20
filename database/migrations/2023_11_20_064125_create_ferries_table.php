@@ -20,7 +20,6 @@ return new class extends Migration
             $table->enum('ferry_type', ['Regular', 'Deluxe', 'Super Deluxe']);
             $table->string('departure_time');
             $table->string('departure_date'); 
-            $table->string('return_time');
             $table->string('return_date');
             $table->integer('price');
             $table->timestamps();

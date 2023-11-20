@@ -19,8 +19,7 @@ class Ferry extends Model
         'price',
         'departure_time',
         'departure_date',
-        'return_time',
-        'return_date',
+        'return_date'
     ];
 
     public function reservation():HasOne {

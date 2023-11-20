@@ -10,10 +10,10 @@ use App\Models\Ferry;
 use App\Models\Destination;
 use App\Http\Resources\DestinationResource;
 
-class BusController extends Controller
+class FerryController extends Controller
 {
     public function index() {
-        return FerryResource::collection(Bus::all());
+        return FerryResource::collection(Ferry::all());
     }
 
     public function getPlaces() {
